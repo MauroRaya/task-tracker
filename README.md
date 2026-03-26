@@ -3,13 +3,30 @@
 Aplicação para gerenciamento de projetos, demandas e usuários, desenvolvida com ASP.NET Core.
 
 ## 📌 Tabela de conteúdo
+* [Tecnologias](#-tecnologias)
+* [Pré-requisitos](#-pré-requisitos)
+* [Convenções](#️-convenções)
 * [Arquitetura do projeto](#️-arquitetura-do-projeto)
   * [O que é Clean Architecture?](#o-que-é-clean-architecture)
   * [Como gerar um projeto Clean Architecture?](#como-gerar-um-projeto-clean-architecture)
-* [Pré-requisitos](#-pré-requisitos)
 * [Como executar o projeto](#️-como-executar-o-projeto)
 * [Documentação](#-documentação)
-* [Convenções](#️-convenções)
+
+## 🚀 Tecnologias
+* [.NET](https://dotnet.microsoft.com/pt-br/)
+* [ASP.NET Core](https://dotnet.microsoft.com/pt-br/apps/aspnet)
+* [Scalar](https://scalar.com/)
+* [Entity Framework Core](https://learn.microsoft.com/pt-br/ef/)
+* [SQLite](https://sqlite.org/index.html)
+
+## 📋 Pré-requisitos
+* [Git](https://git-scm.com/)
+* [.NET SDK 10+](https://dotnet.microsoft.com/pt-br/download/dotnet/10.0)
+
+## ✍️ Convenções
+Esse repositório adota as especificações de:
+* [Branches convencionais](https://conventional-branch.github.io/pt-br/)
+* [Commits convencionais](https://www.conventionalcommits.org/pt-br/v1.0.0/)
 
 ## 🏗️ Arquitetura do projeto
 
@@ -70,10 +87,6 @@ dotnet add "src/$ProjectName.API/$ProjectName.API.csproj" reference "src/$Projec
 dotnet add "src/$ProjectName.API/$ProjectName.API.csproj" reference "src/$ProjectName.Infrastructure/$ProjectName.Infrastructure.csproj"
 ```
 
-## 📋 Pré-requisitos
-* [Git](https://git-scm.com/)
-* [.NET SDK 10.0](https://dotnet.microsoft.com/pt-br/download/dotnet/10.0)
-
 ## ⚙️ Como executar o projeto
 
 ### 1. Clone o repositório.
@@ -108,8 +121,3 @@ Esse repositório utiliza o [Scalar](https://scalar.com/) para documentação, d
 ```bash
 http://localhost:5093/scalar
 ```
-
-## ✍️ Convenções
-Esse repositório adota as especificações de:
-* [Branches convencionais](https://conventional-branch.github.io/pt-br/)
-* [Commits convencionais](https://www.conventionalcommits.org/pt-br/v1.0.0/)
