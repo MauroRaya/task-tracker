@@ -86,17 +86,17 @@ git clone https://github.com/MauroRaya/task-tracker
 cd task-tracker
 ```
 
-### 5. Instale os pacotes.
+### 3. Instale os pacotes.
 ```bash
 dotnet restore
 ```
 
-### 6. Compile aplicação.
+### 4. Compile a aplicação.
 ```bash
 dotnet build
 ```
 
-### 6. Inicie a aplicação.
+### 5. Inicie a aplicação.
 ```bash
 dotnet run --project src/TaskTracker.API/TaskTracker.API.csproj
 ```
